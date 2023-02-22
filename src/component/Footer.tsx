@@ -36,16 +36,16 @@ const Footer = () => {
       <div className="footer__links column">
         <div className="footer__logo">Contact Us</div>
         <div className="footer__socials row align__center">
-          <div className="footer__social row align__center">
+          <div className="footer__social blue row align__center">
             <FacebookOutlinedIcon />
           </div>
-          <div className="footer__social row align__center">
+          <div className="footer__social blue row align__center">
             <TwitterIcon />
           </div>
-          <div className="footer__social row align__center">
+          <div className="footer__social blue row align__center">
             <InstagramIcon />
           </div>
-          <div className="footer__social row align__center">
+          <div className="footer__social blue row align__center">
             <LinkedInIcon />
           </div>
         </div>

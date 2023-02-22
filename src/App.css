@@ -32,6 +32,9 @@ body {
 .align__center {
   align-items: center;
 }
+.bgBlue{
+  background: #413DEE;
+}
 
 .container {
   max-width: 1140px;
@@ -89,18 +92,14 @@ body {
 
 .header__profile--shop {
   width: 54px;
-  background: #413DEE;
   border-radius: 30px;
   color: white;
   justify-content: center;
 }
 
 .banner {
-  /* background: red; */
-  /* height: 700px; */
   padding: 20px 0px 20px 30px;
   justify-content: space-between;
-  /* background: yellow; */
 }
 
 .banner__left {
@@ -115,7 +114,6 @@ body {
 
 .banner__heading {
   width: 309px;
-  height: 160px;
   font-size: 64px;
   font-family: serif;
 }
@@ -128,7 +126,6 @@ body {
 
 .banner--leftBtn {
   width: 200px;
-  background: #413DEE;
   border-radius: 4px;
   color: white;
   justify-content: center;
@@ -145,8 +142,6 @@ body {
 }
 
 .items {
-  /* background: pink; */
-  /* height: 800px; */
   padding: 30px 0px 30px 0px;
 }
 
@@ -168,7 +163,6 @@ body {
 }
 
 .items__body {
-  /* width: 1000px; */
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
   gap: 1em;
@@ -234,8 +228,9 @@ body {
 }
 
 .items__title {
+  width: 90%;
   font-size: 24px;
-  width: 280px;
+  /* width: 280px; */
   height: 84px;
   padding: 10px 0px 10px 0px;
 }
@@ -256,7 +251,6 @@ body {
   width: 180px;
   height: 60px;
   justify-content: center;
-  background: #413DEE;
   color: white;
   border-radius: 5px;
 }
@@ -264,7 +258,6 @@ body {
 .subscribe {
   width: 90%;
   margin: auto;
-  background: #413DEE;
   border-radius: 10px;
   justify-content: center;
   color: white;
@@ -273,13 +266,11 @@ body {
 }
 
 .subscribe__heading {
-  width: 734px;
   font-size: 50px;
   text-align: center;
 }
 
 .subscribe__para {
-  width: 700px;
   text-align: center;
 }
 
@@ -303,7 +294,6 @@ body {
   height: 60px;
   border-radius: 30px;
   color: white;
-  background: #413DEE;
   justify-content: center;
 }
 
@@ -350,7 +340,6 @@ body {
   height: 40px;
   border-radius: 20px;
   background: #413dee1a;
-  color: #413DEE;
   justify-content: center;
 }
 
@@ -366,6 +355,7 @@ body {
     display: flex;
     flex-direction: column !important;
     align-items: center;
+    padding: 0;
   }
   .footer__about,.footer__links,.footer__socials{
     width: 100%;
@@ -379,5 +369,55 @@ body {
 @media (max-width:750px){
   .header__links{
     display: none;
+  }
+}
+@media (max-width:650px){
+  .banner__right,.subscribe__form{
+    width: 400px !important;
+  }
+}
+@media (max-width:490px){
+  .subscribe__form{
+    width: 350px !important;
+  }
+}
+@media (max-width:450px){
+  .banner__right,.subscribe__form{
+    width: 300px !important;
+  }
+}
+@media (max-width:375px){
+  .items__btn{
+    width: 200px !important;
+  }
+  .subscribe__form{
+    width: 250px !important;
+  }
+  .subscribe__input{
+    width: 140px !important;
+  }
+  .banner__buttons{
+    display: flex;
+    flex-direction: column !important;
+    width: 300px !important;
+  }
+  .banner__left,.banner__right{
+    width: 280px !important;
+  }
+  .banner__heading{
+    width: 250px !important;
+  }
+  .banner__left{
+    width: 250px !important;
+    align-items: center;
+  }
+  .items__body{
+    grid-template-columns:repeat(auto-fill,minmax(265px,1fr)) !important;
+  }
+  .items__icons{
+    width: 200px !important;
+  }
+  .banner--leftBtn{
+    width: 80% !important;
   }
 }

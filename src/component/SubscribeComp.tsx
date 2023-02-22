@@ -2,7 +2,7 @@ import React from "react";
 
 const SubscribeComp = () => {
   return (
-    <section className="subscribe column align__center">
+    <section className="subscribe bgBlue column align__center">
       <div className="subscribe__heading fw400">
         Subscribe to Our Newsletter
       </div>
@@ -11,7 +11,7 @@ const SubscribeComp = () => {
       </div>
       <div className="subscribe__form row align__center">
         <input className="subscribe__input"/>
-        <div className="subscribe__btn row align__center">Subscribe</div>
+        <div className="subscribe__btn bgBlue row align__center">Subscribe</div>
       </div>
     </section>
   );
