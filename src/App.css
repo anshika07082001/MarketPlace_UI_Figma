@@ -1,38 +1,125 @@
-.App {
-  text-align: center;
+body{
+  margin: 0;
+  font-family: sans-serif;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.row{
+  display: flex;
+  flex-direction: row;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.column{
   display: flex;
   flex-direction: column;
+}
+.fw500{
+  font-weight: 500;
+}
+.fw700{
+  font-weight: 700;
+}
+.fs14{
+  font-size: 14px;
+}
+.fs16{
+  font-size: 16px;
+}
+.align__center{
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.container{
+  max-width: 1140px;
+  margin: auto;
+}
+.header{
+  padding: 20px 30px 20px 30px;
+  justify-content: space-between;
+  /* background-color: red; */
+}
+.header__logo{
+  width: 196px;
+  height: 30px;
+}
+.logo__span{
+  line-height: 30px;
+  letter-spacing: 10px;
+}
+.header__links{
+  height: 52px;
+  width: 628px;
+  justify-content: space-around;
+}
+.header__lists{
+  height: 32px;
+  width: 96px;
+}
+.header__lists--blog{
+  width: 32px;
+}
+.header__lists--pricing{
+  width: 50px;
+}
+.header__lists--about{
+  width: 45px;
+}
+.header__lists--contact{
+  width: 60px;
+}
+.header__profile{
+  width: 120px;
+  height: 54px;
+  justify-content: space-between;
+}
+.header__profile--shop{
+  width: 54px;
+  background: #413DEE;
+  border-radius: 30px;
   color: white;
+  justify-content: center;
 }
 
-.App-link {
-  color: #61dafb;
+.banner{
+  height: 700px;
+  padding: 20px 0px 20px 30px;
+  justify-content: space-between;
+  /* background: yellow; */
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.banner__left{
+  width: 320px;
+  padding: 40px 0px 40px 0px;
+}
+.banner__content{
+  width: 94px;
+  height: 40px;
+}
+.banner__heading{
+  width: 309px;
+  height: 160px;
+  font-size: 64px;
+  font-family: serif;
+}
+.banner__buttons{
+  width: 320px;
+  height: 60px;
+  justify-content: space-between;
+}
+.banner--leftBtn{
+  width: 200px;
+  background: #413DEE;
+  border-radius: 4px;
+  color: white; 
+  justify-content: center;
+}
+.banner__rightBtn{
+  width: 104px;
+  height: 32px;
+}
+.banner__right{
+  width: 600px;
+  height: 600px;
+}
+.items{
+  height: 800px;
+  padding-bottom: 20px;
+}
+.items__header{
+  height: 120px;
 }
