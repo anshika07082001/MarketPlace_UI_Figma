@@ -1,7 +1,9 @@
 import React from "react";
 import Banner from "./Banner";
+import Footer from "./Footer";
 import Header from "./Header";
 import ItemsComp from "./ItemsComp";
+import SubscribeComp from "./SubscribeComp";
 
 const Main = () => {
   return (
@@ -10,10 +12,14 @@ const Main = () => {
         <Header />
       </header>
       <main>
-        <Banner/>
-        <ItemsComp/>
+        <Banner />
+        <ItemsComp str="Our Top Deals" />
+        <ItemsComp str="Best Selling Products" />
+        <SubscribeComp />
       </main>
-      <footer></footer>
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 };
