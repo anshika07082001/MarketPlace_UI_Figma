@@ -1,8 +1,8 @@
 import React from "react";
 import FacebookOutlinedIcon from "@mui/icons-material/FacebookOutlined";
-import TwitterIcon from '@mui/icons-material/Twitter';
-import InstagramIcon from '@mui/icons-material/Instagram';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import TwitterIcon from "@mui/icons-material/Twitter";
+import InstagramIcon from "@mui/icons-material/Instagram";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
 const Footer = () => {
   return (
@@ -49,7 +49,9 @@ const Footer = () => {
             <LinkedInIcon />
           </div>
         </div>
-        <div className="footer__logo footer__logo--content">hello@yourcompany.com</div>
+        <div className="footer__logo footer__logo--content">
+          hello@yourcompany.com
+        </div>
       </div>
     </section>
   );

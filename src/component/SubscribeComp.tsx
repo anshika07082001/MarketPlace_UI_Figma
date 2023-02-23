@@ -10,7 +10,7 @@ const SubscribeComp = () => {
         Don't miss out on our top deals! Dont worry we will not spam you.
       </div>
       <div className="subscribe__form row align__center">
-        <input className="subscribe__input"/>
+        <input className="subscribe__input" />
         <div className="subscribe__btn bgBlue row align__center">Subscribe</div>
       </div>
     </section>

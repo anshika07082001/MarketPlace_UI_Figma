@@ -43,7 +43,9 @@ const ItemsComp = (props: itemsProps) => {
               </p>
               <div className="items__btn row align__center">
                 <p className="items__btnLeft row align__center">Add to Cart</p>
-                <p className="items__btnRight bgBlue row align__center">Buy Now</p>
+                <p className="items__btnRight bgBlue row align__center">
+                  Buy Now
+                </p>
               </div>
             </div>
           );
