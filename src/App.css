@@ -43,6 +43,7 @@ body {
     max-width: 1140px;
     margin: auto;
 }
+/* Header Component */
 
 .header {
     padding: 20px 30px 20px 30px;
@@ -98,6 +99,7 @@ body {
     color: white;
     justify-content: center;
 }
+/* Banner Component */
 
 .banner {
     padding: 20px 0px 20px 30px;
@@ -142,6 +144,7 @@ body {
     width: 600px;
     height: 600px;
 }
+/* Items Component */
 
 .items {
     padding: 30px 0px 30px 0px;
@@ -258,6 +261,7 @@ body {
     color: white;
     border-radius: 5px;
 }
+/* Subscribe component */
 
 .subscribe {
     width: 90%;
@@ -300,6 +304,7 @@ body {
     color: white;
     justify-content: center;
 }
+/* footer component */
 
 .footer {
     padding: 30px 40px 20px 70px;
@@ -345,6 +350,7 @@ body {
     background: #413dee1a;
     justify-content: center;
 }
+/* Media queries to make template responsive */
 
 @media (max-width: 965px) {
   .banner {
